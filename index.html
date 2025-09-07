@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>حاسبة العمر</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>👋 مرحبًا بك في حاسبة العمر!</h1>
+    <p>أدخل تاريخ ميلادك لحساب عمرك بدقة.</p>
+    
+    <input type="date" id="birthdate" />
+    
+    <div class="buttons">
+      <button onclick="calculateAge()">احسب عمري</button>
+      <button onclick="resetCalculator()">إعادة الحساب</button>
+    </div>
+    
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
